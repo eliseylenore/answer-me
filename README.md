@@ -11,13 +11,14 @@
   * User should be able to view all questions.
   * User should be able to click on a question to see more info
   * User should be able to ask a questions
+  * User can edit a question
   * User should see all answer to a question on the question details page
   * User should be able to add an answer to a question
 
 3. UX/UI
 * Modify Bootstrap
 * Develop custom style (who's answering the questions? a genie?)
-* Make README awesome 
+* Make README awesome
 
 
 ## Installation
