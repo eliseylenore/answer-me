@@ -1,0 +1,16 @@
+<h1>Ask a question!</h1>
+<form>
+  <div class="form-group">
+    <label for="author">What's your name?</label>
+    {{input class="form-control" value=author id="author" placeholder="Your name here"}}
+  </div>
+  <div class="form-group">
+    <label for="inquiry">What's your question?</label>
+    {{textarea rows="20" cols="100" class="form-control" value=inquiry id="inquiry" placeholder="Ask a question, such as \"Where does the word 'sanguine' come from?\""}}
+  </div>
+  <div class="form-group">
+    <label for="notes">Additional notes</label>
+    {{textarea rows="5" cols="100" class="form-control" value=notes id="notes" placeholder="Notes can include an explanation of why you're interested in this question, or any background knowledge you may already have of the subject."}}
+  </div>
+  <button type="button" class="btn btn-info" {{action 'savePost'}}>Ask it</button>
+</form>
