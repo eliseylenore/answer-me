@@ -1,9 +1,33 @@
-# answer-me
+# Planning
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+1. Configuration/dependencies:
+  * Bootstrap for styling
+  * application.js for uniform navigation
+  * models: question and answer
+  * routes: index, question, and new_question
+  * components: question-list, answer-list, and answer-form
 
-## Prerequisites
+2. User stories
+  * User should be able to view all questions.
+  * User should be able to click on a question to see more info
+  * User should be able to ask a questions
+  * User should see all answer to a question on the question details page
+  * User should be able to add an answer to a question
+
+3. UX/UI
+* Modify Bootstrap
+* Develop custom style (who's answering the questions? a genie?)
+* Make README awesome 
+
+
+## Installation
+
+* `git clone <repository-url>` this repository
+* `cd answer-me`
+* `npm install`
+* `bower install`
+
+##Configuration/dependencies
 
 You will need the following things properly installed on your computer.
 
@@ -12,13 +36,6 @@ You will need the following things properly installed on your computer.
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd answer-me`
-* `npm install`
-* `bower install`
 
 ## Running / Development
 
