@@ -6,15 +6,15 @@ export default Ember.Route.extend({
   },
 
   actions: {
-    savePost() {
+    saveQuestion() {
       var params = {
         author: this.controller.get('author'),
         inquiry: this.controller.get('inquiry'),
         notes: this.controller.get('notes')
       };
 
-      var newPost = this.store.createRecord('post', params);
-      newPost.save();
+      var newQuestion = this.store.createRecord('question', params);
+      newQuestion.save();
       this.transitionTo('index');
     }
   }
