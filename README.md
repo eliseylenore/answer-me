@@ -5,7 +5,7 @@
   * application.js for uniform navigation
   * models: question and answer
   * routes: index, question, and new_question
-  * components: question-list, answer-list, and answer-form
+  * components: question-list, question-detail, edit-question, answer-list, answer-form
 
 2. User stories
   * User should be able to view all questions.
