@@ -1,11 +1,10 @@
-<h1>Question: </h1>
-<h3>{{question.inquiry}}</h3>
+<div class="row">
+  <div class="col-xs-3">
+    <h4>Asked by {{question.author}}</h4>
+  </div>
+  <div class="col-xs-9">
+    {{edit-question question=question update="update"}}
+  </div>
+</div>
+<h1>{{question.inquiry}}</h1>
 <h3>Other notes: {{question.notes}}</h3>
-<h4>Asked by {{question.author}}</h4>
-
-{{edit-question question=question update="update"}}
-
-<h3>Answers: </h3>
-{{#each question.answers as |answer|}}
-  {{answer-list answer=answer}}
-{{/each}}
