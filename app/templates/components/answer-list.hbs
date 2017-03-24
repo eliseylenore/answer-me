@@ -1,4 +1,11 @@
 <div class="answer-list">
+  <button type="button" name="button">
+    <span class="glyphicon glyphicon-menu-up" aria-hidden="true" {{action 'upVote' answer}}></span>
+  </button>
+  <button type="button" name="button">
+    <span class="glyphicon glyphicon-menu-down" aria-hidden="true" {{action 'downVote' answer}}></span>
+  </button>
+
   <h5>{{answer.author}}</h5>
   <h4>{{answer.response}}</h4>
 </div>
