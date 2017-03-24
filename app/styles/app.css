@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+
+/************* Navbar styles *************/
+
+.navbar{
+  background: white;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Patua One', cursive;
+  color: black;
+  margin-left: -15px;
+}
+
+/************* General *************/
+.btn-info {
+  background-color: white;
+  color: black;
+  border-color: #ccc;
+}
+
+.btn-info:hover {
+  background-color: #ccc;
+  color: black;
+  border-color: #333;
+}
+
+h3, h4, h5 {
+  font-weight: normal;
+  color: #696969;
+}
+
+/************* Index *************/
+.question-list, .answer-list {
+  padding: 10px;
+}
+
+.index:nth-child(odd) .question-list{
+  background-color: #FEDCD2;
+}
+
+/************* Question Page *************/
+.question-detail {
+  background-color: #BFD8D2;
+  padding: 50px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+.question-detail h1 {
+  color: #CF744A;
+}
