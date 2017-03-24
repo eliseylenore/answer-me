@@ -4,3 +4,8 @@
 <h4>Asked by {{question.author}}</h4>
 
 {{edit-question question=question update="update"}}
+
+<h3>Answers: </h3>
+{{#each question.answers as |answer|}}
+  {{answer-list answer=answer}}
+{{/each}}
