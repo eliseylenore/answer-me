@@ -1,14 +1,14 @@
 { "questions": [{
     "inquiry": "Who is the president of the United States?",
     "author": "Denise Colbray",
-    "additional notes": "Not quite sure"
+    "notes": "Not quite sure"
   }, {
     "inquiry": "What is the meaning of life?",
     "author": "Yoda",
-    "additional notes": "Pondering..."
+    "notes": "Pondering..."
   }, {
     "inquiry": "What is a snowball?",
     "author": "California grrrl",
-    "additional notes": "Mysterious."
+    "notes": "Mysterious."
   }]
 }
